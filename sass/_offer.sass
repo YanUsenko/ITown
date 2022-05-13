@@ -1,0 +1,108 @@
+.offer
+    padding: 80px 0px 135px 0px
+    display: flex
+    background-image: url(../img/offer/main-img.svg) 
+    background-repeat: no-repeat
+    background-position: right top 80px
+    &__block-left
+        margin-top: 95px
+    &__name
+        font-style: normal
+        font-weight: 800
+        font-size: 48px
+        line-height: 59px
+        color: #FFFFFF
+    &__underline
+        width: 155px
+        height: 7px
+        border-radius: 5px
+        margin-top: 5px
+        background: linear-gradient(277.11deg, #5D70FB 17.12%, #DC79FF 93.99%);
+    &__title
+        font-style: normal
+        font-weight: 800
+        font-size: 64px
+        line-height: 78px
+        color: #FFFFFF
+        margin-top: 5px
+        max-width: 510px
+        width: 100%
+    &__text
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 20px
+        color: #FFFFFF
+        max-width: 470px
+        margin-top: 15px
+    &__links
+        margin-top: 135px
+    &__button
+        width: 250px
+        height: 50px
+        background: #A675FD;
+        border-radius: 10px
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF
+        padding: 15px 75px
+        margin-right: 53px
+        transition-duration: 0.3s
+        &:hover 
+            transform: scale(1.2);
+            
+    &__links
+        display: flex
+        align-items: center
+    &__soc
+        margin-right: 25px
+        transition-duration: 0.3s
+        &:hover 
+            transform: scale(1.2);
+    // &__block-right
+    //     width: 593px
+    //     height: 593px
+    //     background-image: url(../img/offer/main-img.svg) 
+    //     margin-left: 99px
+@media (max-width: 1100px)
+    .offer
+        background-position: right -200px top 80px
+@media (max-width: 890px)
+    .offer
+        background-position: right -250px top 80px
+@media (max-width: 769px)
+    .offer
+        background-image: none
+@media (max-width: 560px)
+    .offer
+        &__name
+            font-size: 40px
+            line-height: 50px
+        &__title
+            font-size: 50px
+@media (max-width: 560px)
+    .offer
+        padding: 40px 0px 90px 0px
+        &__name
+            line-height: 50px
+        &__title
+            font-size: 40px
+            line-height: 60px
+@media (max-width: 560px)
+    .offer
+        &__links
+            display: flex
+            flex-direction: column
+            align-items: start
+        &__block-soc
+            margin-top: 30px
+@media (max-width: 400px)
+    .offer
+        &__name
+            line-height: 35px
+            font-size: 28px
+        &__title
+            font-size: 35px
+            line-height: 50px

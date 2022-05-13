@@ -1,0 +1,28 @@
+.partners
+    padding: 75px 0px 110px 0px
+    &__title
+        font-style: normal
+        font-weight: 800
+        font-size: 40px
+        line-height: 49px
+        color: #1D1D1F
+        text-align: center
+    &__content
+        display: flex
+        justify-content: space-between
+        margin-top: 50px
+@media (max-width: 1080px)
+    .partners
+        img
+            width: 20%
+@media (max-width: 767px)
+    .partners
+        &__content
+            flex-wrap: wrap
+            justify-content: space-around
+        img
+            width: 35%
+            margin-bottom: 40px
+@media ( max-width: 575px )
+    .partners
+        padding: 60px 0px 50px 0px
