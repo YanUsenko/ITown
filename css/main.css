@@ -596,6 +596,31 @@ body {
   }
 }
 
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.thanks__link {
+  margin-top: 10px;
+  text-decoration: underline;
+  color: #A675FD;
+}
+
+.big {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.sub {
+  font-family: 'Montserrat';
+  margin-top: 10px;
+  font-weight: 500;
+}
+
 @media (max-width: 767px) {
   .title {
     font-size: 30px;
